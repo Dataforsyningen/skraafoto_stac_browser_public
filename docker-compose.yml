@@ -8,5 +8,4 @@ services:
         container_name: stac_browser_container
         restart: unless-stopped
         ports:
-            - "8080:8080"
-        command: ['npm', 'start', '--']
+            - "3200:80"
