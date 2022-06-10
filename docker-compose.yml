@@ -8,4 +8,4 @@ services:
         container_name: stac_browser_container
         restart: unless-stopped
         ports:
-            - "3200:80"
+            - "4447:80"
