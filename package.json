@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "buildlegacy": "node --openssl-legacy-provider node_modules/.bin/vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "bugs": {
